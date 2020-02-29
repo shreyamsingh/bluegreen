@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingBottom= "16dp"
+    android:paddingTop= "16dp"
+    android:paddingLeft= "16dp"
+    android:paddingRight = "16dp"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android.textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_weight="9"
+        android:background="#8BC34A"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="BlueGreen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="56dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        tools:srcCompat="@drawable/appiconbordered" />
+
+    <Button
+        android:id="@+id/gotomap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="@font/advent_pro_medium"
+        android:onClick="goToMap"
+        android:text="Go To Map"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="Select Photo"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"/>
+
+
+
+
+
+
+</LinearLayout>
